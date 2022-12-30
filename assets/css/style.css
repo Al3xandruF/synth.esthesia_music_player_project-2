@@ -143,8 +143,9 @@ h3 {
   }
 
   .player-controls {
-    top: -10px;
-    left: 100px;
+    position: relative;
+    width: 200px;
+    margin-left: 125px;
   }
 }
 
@@ -179,8 +180,9 @@ h3 {
   }
 
   .player-controls {
-    top: -10px;
-    left: 100px;
+    position: relative;
+    width: 200px;
+    margin-left: 115px;
   }
 }
 
@@ -214,8 +216,9 @@ h3 {
   }
 
   .player-controls {
-    top: -10px;
-    left: 100px;
+    position: relative;
+    width: 200px;
+    margin-left: 105px;
   }
 }
 
@@ -249,7 +252,9 @@ h3 {
   }
 
   .player-controls {
-    top: -10px;
-    left: 100px;
+    margin-top: -15px;
+    position: relative;
+    width: 200px;
+    margin-left: 85px;
   }
 }
