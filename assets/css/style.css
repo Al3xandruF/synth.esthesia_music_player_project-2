@@ -1,4 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Shade&family=Space+Mono:ital@0;1&display=swap');
 
+html {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("../images/background_img.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Audiowide', 'sans-serif';
+  font-size: 12px;
+}
+
+.player-container {
+  height: 500px;
+  width: 400px;
+  background-color: rgba(230, 91, 1, 0.5);
+  
+}
+
+.player-container:hover {
+  border-radius: 20px;
+  box-shadow: 5px 7px 20px 0px rgba(179, 71, 0, 1);
+  transition: 1.3s;
+}
 
