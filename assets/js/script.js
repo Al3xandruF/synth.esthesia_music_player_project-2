@@ -4,13 +4,14 @@ const artist = document.getElementById('artist');
 const music = document.querySelector('audio');
 const progressContainer = document.getElementById('Progress-Container');
 const progresss = document.getElementById('progress');
+const currentTimeEl = document.getElementById('current-time');
+const durationEl = document.getElementById('duration');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
 
 //Music
-const songs = [
-    {
+const songs = [{
         name: '2 Of Us',
         displayName: '2 Of Us',
         artist: 'Nostalgia Tape',
@@ -65,7 +66,7 @@ let songIndex = 0;
 function prevSong() {
     songIndex--;
     if (songIndex < 0) {
-        songIndex = songs.length -1;
+        songIndex = songs.length - 1;
     }
     loadSong(songs[songIndex]);
     playSong();
@@ -87,11 +88,34 @@ loadSong(songs[songIndex]);
 //Update Progress Bar and Time
 function updateProgressBar(e) {
     if (isPlaying) {
-        const {duration, currentTime} = e.srcElement;
-        console.log(duration, currentTime)
+        const {
+            duration,
+            currentTime
+        } = e.srcElement;
         //Update progress barr width
         const progressPercent = (currentTime / duration) * 100;
         progress.style.width = `${progressPercent}%`;
+        //Calculate display for duration
+        const durationMinutes = Math.floor(duration / 60);
+        console.log('minutes', durationMinutes);
+        let durationSeconds = Math.floor(duration % 60);
+        if (durationSeconds < 10) {
+            durationSeconds = `0${durationSeconds}`;
+        }
+        console.log('seconds', durationSeconds);
+        //Delay switching duration Element to avoid Nan
+        if (durationSeconds) {
+            durationEl.textContent = `${durationMinutes}:${durationSeconds}`;
+        }
+        //Calculate display for current
+        const currentMinutes = Math.floor(currentTime / 60);
+        console.log('minutes', currentMinutes);
+        let currentSeconds = Math.floor(currentTime % 60);
+        if (currentSeconds < 10) {
+            currentSeconds = `0${currentSeconds}`;
+        }
+        console.log('seconds', currentSeconds);
+        currentTimeEl.textContent = `${currentMinutes}:${currentSeconds}`;
     }
 }
 
