@@ -1,7 +1,29 @@
+const image = document.querySelector('img');
+const title = document.getElementById('title');
+const artist = document.getElementById('artist');
 const music = document.querySelector('audio');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
+
+//Music
+const songs = [
+    {
+        name: '2 Of Us',
+        displayName: '2 Of Us',
+        artist: 'Nostalgia Tape',
+    },
+    {
+        name: 'Lost Love',
+        displayName: 'Lost Love',
+        artist: 'Nostalgia Tape',
+    }
+    {
+        name: 'Neon Raceway',
+        displayName: 'Neon Raceway',
+        artist: 'Nostalgia Tape',
+    },
+];
 
 
 //Check if playing
