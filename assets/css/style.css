@@ -22,12 +22,27 @@ body {
   height: 500px;
   width: 400px;
   background-color: rgba(230, 91, 1, 0.5);
-  
 }
 
 .player-container:hover {
   border-radius: 20px;
-  box-shadow: 5px 7px 20px 0px rgba(179, 71, 0, 1);
+  box-shadow: 5px 7px 15px 0px rgba(179, 71, 0, 1);
   transition: 1.3s;
+}
+
+.img-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 103, 184, 1);
 }
 
