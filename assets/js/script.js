@@ -47,3 +47,13 @@ function pauseSong() {
 
 // Play or Pause Event Listener
 playBtn.addEventListener('click', () => (isPlaying ? pauseSong() : playSong()));
+
+//Update DOM
+function loadSong(song) {
+    title.textContent = song.displayName;
+    artist.textContent = song.artist;
+    music.src = `assets/music/${song.name}.mp3`;
+    image.src = `assets/images/${song.name}.jpeg`;
+
+
+}
