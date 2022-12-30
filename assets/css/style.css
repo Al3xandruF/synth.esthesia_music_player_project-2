@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Shade&family=Space+Mono:ital@0;1&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("../images/background_img.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+}
+
+
+
