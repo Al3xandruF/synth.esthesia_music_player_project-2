@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <script src="https://kit.fontawesome.com/88549b4783.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <div class="player-container">
         <!-- Song -->
@@ -16,9 +18,24 @@
         </div>
         <h2 id="title">2 Of Us</h2>
         <h3 id="artist">Nostalgia Tape</h3>
-        <audio src="assets/music/2 Of Us.mp3" controls></audio>
+        <audio src="assets/music/2 Of Us.mp3"></audio>
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">1:19</span>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
+
 </html>
