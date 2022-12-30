@@ -86,6 +86,27 @@ h3 {
   justify-content: space-between;
 }
 
+* Controls */
+
+.player-controls {
+    position: relative;
+    top: -15px;
+    left: 120px;
+    width: 200px;
+}
+
+.fas {
+    font-size: 30px;
+    color: rgb(129, 129, 129);
+    margin-right: 30px;
+}
+
+.main-button {
+    font-size: 40px;
+    position: relative;
+    top: 3px;
+}
+
 /* Media Query for 420px */
 
 @media screen and (max-width: 420px) {
