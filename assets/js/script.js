@@ -17,7 +17,7 @@ const songs = [
         name: 'Lost Love',
         displayName: 'Lost Love',
         artist: 'Nostalgia Tape',
-    }
+    },
     {
         name: 'Neon Raceway',
         displayName: 'Neon Raceway',
@@ -54,6 +54,34 @@ function loadSong(song) {
     artist.textContent = song.artist;
     music.src = `assets/music/${song.name}.mp3`;
     image.src = `assets/images/${song.name}.jpeg`;
-
-
 }
+
+//Current Song
+let songIndex = 0;
+
+// Previous Song
+function prevSong() {
+    songIndex--;
+    if (songIndex < 0) {
+        songIndex = songs.length -1;
+    }
+    loadSong(songs[songIndex]);
+    playSong();
+}
+
+// Next Song
+function nextSong() {
+    songIndex++;
+    if (songIndex > songs.length - 1) {
+        songIndex = 0;
+    }
+    loadSong(songs[songIndex]);
+    playSong();
+}
+
+// On Load - Select First Song
+loadSong(songs[songIndex]);
+
+// Event Listeners
+prevBtn.addEventListener('click', prevSong);
+nextBtn.addEventListener('click', nextSong);
