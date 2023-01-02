@@ -125,7 +125,7 @@ h3 {
 @media screen and (max-width: 420px) {
 
   #main-content {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -164,7 +164,7 @@ h3 {
 @media screen and (max-width: 400px) {
 
   #main-content {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -203,7 +203,7 @@ h3 {
 @media screen and (max-width: 376px) {
 
   #main-content {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -250,7 +250,7 @@ h3 {
 @media screen and (max-width: 360px) {
 
   #main-content {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
