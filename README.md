@@ -50,10 +50,30 @@ The tool used for applying the colors for the player is Adobe - Color Wheel.
 - Monochromatic Pink for the song title and dynamic progress bar
 - Monochromatic Red for transition in/out on hover.
 - Monochromatic Orange for the static progress bar.
-- Default Black for timing and volume title.
 - Monochromatic Grey for adjust-volume bar.
+- Default Black for timing and volume title.
 
 ![colors used](/assets/readme_screenshots/adobe_color_wheel.png)
+
+## **Typography**
+---
+
+Google Fonts was used to import the fonts for Website.
+
+The font package used:
+
+- Audiowide: For the main content of the Music Player.
+- Bunge Shade: For future use on the page.
+- Space Mono: For future use on the page.
+
+![google fonts](/assets/readme_screenshots/google_fonts.png)
+
+## **Features**
+---
+
+
+
+
 
 
 
