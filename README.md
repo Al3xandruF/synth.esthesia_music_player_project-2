@@ -36,9 +36,7 @@
 
 **The website will contantly improve on UX such as:**
 
-- Intuitive and easy interaction with the Music Player's features.
-- Search bar for songs will be added.
-- Appearance features will be implemented frequently.
+- Intuitive and easy interaction with the Music Player's existing and to be added features.
 
 ## **Design**
 ---
@@ -151,7 +149,12 @@ Languages used:
 <br>
 <br>
 
-**Frameworks, Libraries and Programs Used**
+## **Features Left to Implement**
+
+- Search bar for songs will be added.
+- Appearance features will be implemented frequently.
+
+## **Frameworks, Libraries and Programs Used**
 
 - Printed Sneakpeekit Browser Grid for hand drawing sketches.
 - Git for version control.
@@ -205,7 +208,7 @@ To **clone** the repository you need to:
 ## **Testing**
 ---
 
-### **Automated Testing**
+**Automated Testing**
 <br>
 
 - HTML
@@ -236,8 +239,8 @@ To **clone** the repository you need to:
 <br>
 <br>
 
-### **Manual Testing**
----
+**Manual Testing**
+<br>
 
 - Cross-Browser Testing
  - The website behaves as expected on all major browsers like: Chrome, Firefox, Safari, Opera.
