@@ -305,7 +305,7 @@ h3 {
   }
 }
 
-/* Media Quert for 360px */
+/* Media Query for 360px */
 @media screen and (max-width: 360px) {
 
   #main-content {
