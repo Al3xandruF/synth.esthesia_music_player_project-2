@@ -1,9 +1,7 @@
- <div style="color: #FF7C00; font-size: 2rem; font-weight: bold; text-align: center">
- - Synth.Esthesia Music Player -</div>
- <br>
+# **Synth.Esthesia Music Player**
  <br>
 
-<div style="text-indent: 2rem">The <span style="font-weight: bold;">Synth.Esthesia Music Player</span> is designed to be a shareable music platform. The concept behind it is simple: For the users to be able to store their own favourite songs into one place, access them from all type of devices and share their playlists with other users on the platform.</div>
+The **Synth.Esthesia Music Player** is designed to be a shareable music platform. The concept behind it is simple: For the users to be able to store their own favourite songs into one place, access them from all type of devices and share their playlists with other users on the platform.
 
 ![main page](/assets/readme_screenshots/screeRes_all_devices.png)
 
@@ -91,8 +89,7 @@ A background wallpaper, the music player itself and it's futures:
 
 The music player is comprised with the following:
 
-- The title itself, which is inspired by the neurological condition: Synesthesia<a href="https://www.healthline.com/health/synesthesia" target="_blank">(click for more info).</a>
-
+- The title itself, which is inspired by the neurological condition: Synesthesia.
 ![title](/assets/readme_screenshots/title_player.png)
 <br>
 <br>
@@ -215,8 +212,6 @@ To **clone** the repository you need to:
   - No errors were returned when testing the code on the official W3C validator.
 
 ![html validator](/assets/readme_screenshots/html_validator_check.png)
-<br>
-<br>
 
 - CSS
   - No errors were returned when testing the code on the official CSS validator.
