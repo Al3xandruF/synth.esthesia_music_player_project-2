@@ -74,14 +74,12 @@ The website is comprised of a responsive single page, with the following:
 <br>
 
 A cassette-type favicon in the browsing tab:
-<br>
 
 ![favicon](/assets/readme_screenshots/favicon.png)
 <br>
 <br>
 
 A background wallpaper, the music player itself and it's futures:
-<br>
 
 ![main page](/assets/readme_screenshots/player_main_page.png)
 <br>
@@ -90,6 +88,7 @@ A background wallpaper, the music player itself and it's futures:
 The music player is comprised with the following:
 
 - The title itself, which is inspired by the neurological condition: Synesthesia.
+
 ![title](/assets/readme_screenshots/title_player.png)
 <br>
 <br>
